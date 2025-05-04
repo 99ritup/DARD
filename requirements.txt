@@ -7,4 +7,3 @@ fpdf
 pytz
 qrcode
 streamlit-lottie
-pip install --upgrade pip
