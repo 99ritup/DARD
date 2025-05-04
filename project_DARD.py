@@ -15,8 +15,8 @@ import json
 
 # =============== Load models ===================
 #model = tf.keras.models.load_model("trained_model.keras")
-model = tf.keras.models.load_model("trained_model.keras", compile=False)
 retinal_check_model = tf.keras.models.load_model("retinal_non_retinal_classifier.keras")
+model = tf.keras.models.load_model("trained_model.keras", compile=False)
 
 class_labels = ['0_No_DR', '1_Mild', '2_Moderate', '3_Severe', '4_Proliferate_DR']
 
