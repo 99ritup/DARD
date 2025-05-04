@@ -3,7 +3,7 @@ tensorflow
 numpy
 pillow
 fpdf
-sqlite3
+
 pytz
 qrcode
 streamlit-lottie
